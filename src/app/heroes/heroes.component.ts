@@ -19,8 +19,11 @@ export class HeroesComponent implements OnInit {
     this.heroService.getHeroes()
       .subscribe(heroes => this.heroes = heroes);
   }
+  /*
+  * Adicionado rotas para o componente heroDetail, não mais necessário controlar o hero selecionado
   selectedHero: Hero;
   onSelect(hero): void {
     this.selectedHero = hero;
   }
+  */
 }

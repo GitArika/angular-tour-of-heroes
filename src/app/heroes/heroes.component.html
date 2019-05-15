@@ -1,5 +1,6 @@
 <h2>My Heroes</h2>
 
+<!--- Trecho de codigo refatorado, sem rotas para hero-detail
 <app-hero-detail [hero]="selectedHero"></app-hero-detail>
 
 <ul class="heroes">
@@ -8,10 +9,12 @@
   </li>
 </ul>
 
-
-<!--- Trecho de codigo refatorado
-
-<div>
-
-</div>
 -->
+
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+    <a routerLink="/detail/{{hero.id}}">
+      <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </a>
+  </li>
+</ul>
