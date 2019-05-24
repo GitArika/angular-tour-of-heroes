@@ -32,7 +32,25 @@
 .heroes a:hover {
   color:#607D8B;
 }
-
+button {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
 .heroes .badge {
   display: inline-block;
   font-size: small;
