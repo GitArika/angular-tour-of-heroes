@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="AngularIcon" src="https://repository-images.githubusercontent.com/49016322/13d16c00-613a-11e9-9b59-9d4b6e6cb483" width="200px" />
+    <img alt="AngularIcon" src="[https://repository-images.githubusercontent.com/49016322/13d16c00-613a-11e9-9b59-9d4b6e6cb483](https://angular.io/assets/images/logos/angular/angular.svg)" width="200px" heigth="200px"/>
 </h1>
 
 <h3 align="center">
